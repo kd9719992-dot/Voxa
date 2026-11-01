@@ -1155,4 +1155,5 @@ async def _before_auto_scan():
     await bot.wait_until_ready()
 
 
-bot.run(os.environ["DISCORD_TOKEN"])
+if __name__ == "__main__":
+    bot.run(os.environ["DISCORD_TOKEN"])
