@@ -1,0 +1,7 @@
+discord.py
+pandas
+numpy
+requests
+ccxt
+mplfinance
+matplotlib
